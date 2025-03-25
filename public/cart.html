@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div id="cart-container"></div>
+        <p id="cart-total"></p>
+        <div id="cart-items"></div>
+        
+<div class="cart-buttons">
+        <button id="clear-cart" style="display:none;">Clear Cart</button>
+        <button id="checkout-button" style="display:none;">Proceed to Buy</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jubilent's Store</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/apiproducts.js"></script>
+</body>
+</html>
